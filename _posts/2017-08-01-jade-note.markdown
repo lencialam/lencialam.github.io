@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jade Learning Note"
-date:   2017-08-02 20:30:00 +0800
+date:   2017-08-01 20:30:00 +0800
 categories: ["note", "development", "webapp"]
 ---
 Jade is a template engine which can be used by Node.js.

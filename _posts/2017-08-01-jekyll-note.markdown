@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blogging with Jekyll and Github Pages"
-date:   2017-08-02 20:30:00 +0800
+date:   2017-08-01 21:46:00 +0800
 categories: ["note", "development", "webapp"]
 ---
 Run your blog in localhost with

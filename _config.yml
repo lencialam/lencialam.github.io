@@ -10,8 +10,8 @@ title: Lencia's Academy
 email: lencialam@gmail.com
 description: Collision of Thoughts, In the Form of Words and Photos
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "lencialam.github.io" # the base hostname & protocol for your site
-twitter_username: lencialam
+url: "https://lencialam.github.io" # the base hostname & protocol for your site
+twitter_username:
 github_username:  lencialam
 paginate: 5
 

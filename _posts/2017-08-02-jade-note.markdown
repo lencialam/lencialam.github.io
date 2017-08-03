@@ -10,27 +10,44 @@ You can try Jade [here](http://naltatis.github.io/jade-syntax-docs/).
 ### Syntax
 1. Tag:
 ```
-//renders to <html></html>
+// renders to <html></html>
 html
 ```
 2. Add id to a tag:
 ```
-//renders to <div id="container"></div>
+// renders to <div id="container"></div>
 div#container
 ```
 3. Add class to a tag:
 ```
-//renders to <div class="user-details"></div>
+// renders to <div class="user-details"></div>
 div.user-details
 ```
-4. Add more than one classes: 
+4. Add more than one classes:
 ```
-//renders to <div id="foo" class="bar baz"></div>
+// renders to <div id="foo" class="bar baz"></div>
 div#foo.bar.baz
 ```
 5. Multiple divs:
 ```
-//renders to <div id="foo"></div><div class="bar"></div>
+// renders to <div id="foo"></div><div class="bar"></div>
 #foo
 .bar
+```
+6. Paragraphs:
+```
+// renders to <p>hello!</p>
+p hello!
+// renders to <p>foo bar baz rawr.....</p>
+p
+  | foo bar baz
+  | rawr rawr
+  | super cool
+  | go jade go
+```
+7. Pass data:
+```
+// if we have an object: { name: 'tj', email: 'tj@vision-media.ca' }
+// the following code renders to <div id="user">tj &lt;tj@vision-media.ca&gt;</div>
+#user #{name} &lt;#{email}&gt;
 ```

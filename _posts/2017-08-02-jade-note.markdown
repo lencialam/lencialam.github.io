@@ -9,13 +9,25 @@ You can try Jade [here](http://naltatis.github.io/jade-syntax-docs/).
 
 ### Syntax
 1. Tag:
-       html  //will be rendered to <html></html>
+```
+//renders to <html></html>
+html
+```
 2. Add id to a tag:
-       div#container //will be rendered to <div id="container"></div>
+```
+//renders to <div id="container"></div>
+div#container
+```
 3. Add class to a tag:
-       div.user-details  //will be rendered to <div class="user-details"></div>
-4. Add more than one classes:
-       div#foo.bar.baz //will be rendered to <div id="foo" class="bar baz"></div>
+```
+//renders to <div class="user-details"></div>
+div.user-details
+```
+4. Add more than one classes: 
+```
+//renders to <div id="foo" class="bar baz"></div>
+div#foo.bar.baz
+```
 5. Multiple divs:
 ```
 //renders to <div id="foo"></div><div class="bar"></div>

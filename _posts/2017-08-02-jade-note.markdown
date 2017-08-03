@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jade Learning Note"
-date:   2017-08-01 20:30:00 +0800
+date:   2017-08-02 18:32:00 +0800
 categories: ["note", "development", "webapp"]
 ---
 Jade is a template engine which can be used by Node.js.
@@ -9,15 +9,16 @@ You can try Jade [here](http://naltatis.github.io/jade-syntax-docs/).
 
 ### Syntax
 1. Tag:
-    html  //will be rendered to <html></html>
+       html  //will be rendered to <html></html>
 2. Add id to a tag:
-    div#container //will be rendered to <div id="container"></div>
+       div#container //will be rendered to <div id="container"></div>
 3. Add class to a tag:
-    div.user-details  //will be rendered to <div class="user-details"></div>
+       div.user-details  //will be rendered to <div class="user-details"></div>
 4. Add more than one classes:
-    div#foo.bar.baz //will be rendered to <div id="foo" class="bar baz"></div>
+       div#foo.bar.baz //will be rendered to <div id="foo" class="bar baz"></div>
 5. Multiple divs:
 ```
 //renders to <div id="foo"></div><div class="bar"></div>
 #foo
 .bar
+```

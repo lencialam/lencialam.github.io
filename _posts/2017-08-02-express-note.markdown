@@ -2,7 +2,7 @@
 layout: post
 title:  "Express.js Learning Note"
 date:   2017-08-02 22:06:00 +0800
-categories: ["note", "development", "webapp"]
+categories: ["development", "webapp"]
 ---
 
 ### Simple Usage

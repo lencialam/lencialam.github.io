@@ -2,7 +2,7 @@
 layout: post
 title:  "Blogging with Jekyll and Github Pages"
 date:   2017-08-11 23:02:00 +0800
-categories: ["note", "development", "webapp"]
+categories: ["development", "webapp"]
 ---
 
 # Jekyll

@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Corporate Finance"
 date:   2017-08-12 22:23:00 +0800
-categories: ["note", "business", "finance"]
+categories: ["business", "finance"]
 ---
 
 ### Mod1. Time Value of Money: Intuition & Discounting

@@ -2,7 +2,7 @@
 layout: post
 title:  "Jade Learning Note"
 date:   2017-08-02 18:32:00 +0800
-categories: ["note", "development", "webapp"]
+categories: ["development", "webapp"]
 ---
 Jade is a template engine which can be used by Node.js.
 You can try Jade [here](http://naltatis.github.io/jade-syntax-docs/).

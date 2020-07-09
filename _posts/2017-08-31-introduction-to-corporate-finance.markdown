@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Corporate Finance"
-date:   2017-08-12 22:23:00 +0800
+date:   2017-08-31 13:26:00 +0800
 categories: ["business", "finance"]
 ---
 
@@ -29,4 +29,9 @@ categories: ["business", "finance"]
   - denote: \\(FV_{s}(CF_{t})\\)
   - \\(FV_{s}(CF_{t})=CF_{t}(1+R)^{s-t}\\) for \\(t<s\\)
 
-### Mod3.
+### Mod3. Time Value of Money: Useful Shortcuts
++ Annuity：
+  - an infinite stream of cash flows of identical magnitude and equal spacing in time
+  - Present value of annuity: \\(\frac{CF}{R}*(1-(1+R)^{-T})\\)
++ Growing Annuity:
+  -
